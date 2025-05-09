@@ -1,0 +1,4 @@
+1. Tarjeta de Presentación Interactiva:
+Descripción: Crea una tarjeta de presentación digital personal o para un personaje ficticio. Debe incluir información de contacto, enlaces a redes sociales y una pequeña animación o efecto interactivo al pasar el ratón por encima.
+Tecnologías Clave: HTML semántico, Tailwind CSS para el diseño y la responsividad, JavaScript para la interactividad (ej. mostrar/ocultar información, efectos hover).
+Objetivos de Aprendizaje: Estructura HTML, utilidades de Tailwind CSS, manipulación básica del DOM, eventos de JavaScript.
