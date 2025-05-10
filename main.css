@@ -1,0 +1,21 @@
+/* Estilo para la fuente Inter, recomendada por Tailwind */
+body {
+  font-family: "Inter", sans-serif;
+}
+/* Pequeña transición para suavizar efectos */
+.interactive-card {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.interactive-card:hover {
+  transform: translateY(-5px); /* Mover la tarjeta hacia arriba en hover */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Sombra más pronunciada en hover */
+}
+/* Estilos para el contenedor de detalles (inicialmente oculto) */
+.details-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
+}
+.details-content.open {
+  max-height: 500px; /* Ajusta según el contenido */
+}
